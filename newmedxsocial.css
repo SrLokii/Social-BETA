@@ -1,0 +1,44 @@
+.menuprincipal{
+    display: inline;
+}
+.limenu{
+    display: inline;
+
+}
+.nav-item{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(47, 124, 192)!important;
+    /*background-color: #1b1b1b;*/
+    font-weight: bolder;
+    padding-right: 70px;
+}
+.nav-link.disabled{
+    color:white!important;
+}
+.nav justify-content-center{
+    background-color: #201111;
+    color: aqua;
+}
+.mmenu{
+    background-color: #1b1b1b;
+    
+}
+
+
+@media (max-width: 576px) { 
+    .nav-item{
+        padding-right: 0px;
+    }
+}
+#menuapresentacao{
+    background-image:url(Images/topline-texture.jpg) ;
+}
+@media (min-width:1200px){
+    .linhacontainer{
+        margin-left: -60px;
+    }
+}
+.spacebottom{
+    margin-bottom: 15px!important;
+}

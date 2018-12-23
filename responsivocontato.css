@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@media (max-width: 500px){
+    .areadoscontatosresponsivo {
+        width: 100%;
+    }
+    .menuapresentacao .row{
+        display:flex!important;
+    }
+    .menutopcontainer{
+        padding-right: 0px;
+        display: flex;
+
+    }
+    .col-xs-12 .col-md-6 .col-md-push-3 .col-sm-12 .text-center{
+        padding-left: 0px;
+
+    }
+    .pricontato{
+        margin-left: 0px;
+        display: block;
+    }
+    .segcontato{
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+    }
+    .tercontato{
+        margin-right: 0px;
+        display: block;
+    }
+    .cover-post{
+        padding-left: 6%!important;
+        padding-right: 5%!important;
+    }
+    .just{
+        text-align: justify!important;
+    }
+}
+/*----------------------medias para utilizar no teste 2-----------------------------*/
+@media(max-width: 770px){
+.menutop{
+    display: none;
+}
+    .midmenu{
+    text-align: unset;
+    margin-bottom: 10px;
+}
+.headeropmenumid{
+    display:none;
+}
+.imglogomarca{
+    padding: 0 0px 90px 0px;
+    text-align: start;
+}
+.logo{
+    padding: 4px 0px 0px 0px;
+}
+.containerprincipalmenumid{
+    padding-right: 0px;
+    padding-left: 16px;
+}
+.light-blue.lighten-4{
+    box-shadow: none;
+}
+.light-blue.lighten-4{
+    background-color: #fff!important;
+    padding-top: 16px;
+    padding-right: 30px;
+    margin-left: -1px;
+}
+.imglogo{
+    padding-left: 80px;
+}
+}
+@media(min-width: 1000px){
+    .ocultar{
+        display: none!important;
+    }
+}
+.botaomenuladodireito{
+    display: none;
+}
+
+@media(max-width: 780px){
+    .imglogomarca{
+        display: none!important;
+    }
+}
+/*----------------------fim medias para utilizar no teste 2-----------------------------*/
+
+
