@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Medx Social</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		 <!--Font Awesome -->
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+		 <!-- Bootstrap core CSS  -->
+		 <link href="../css/bootstrap.min.css" rel="stylesheet">
+		  
+		   <link rel="stylesheet" href="../css/style.css">
+		   <link rel="stylesheet" href="../teste2.css">
+		   <link rel="stylesheet" href="../style.css">
+		   <link rel="stylesheet" href="../teste.css">
+		   <link rel="stylesheet" href="../responsivocontato.css">
+	   
+		   <!--Bootstrap -->
+		   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+			   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		   <!--Fim do Bootstrap -->
+		   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		 <link rel="stylesheet" href="../newmedxsocial.css">
+		 <link rel="stylesheet" href="tamanhotela.css">
+		<script src="../js/modernizr.custom.js"></script>
+		<style>
+			.fixo {
+			  z-index: 199;
+			  position: fixed!important;
+			  top: 0px;
+			  background-color: aliceblue;
+              transition: all 0.8s;
+              left: 0px;
+			 }
+		  </style>
+	</head>
+	<body class="archive author">
+			<section id="parte1">
+
+				</section>
+				<div id="parte2"></div>
+				<section id="parte3"></section>
+		<div id="page">
+			<div class="mmenu" style="display: none" >	
+					<ul class="nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link disabled" href="PageList.html">Principal</a>
+						</li>	
+						<li class="nav-item">
+							<a class="nav-link disabled" href="PageContato.html">Sobre nós</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="teste.html">Contato</a>
+						</li>
+				    </ul>
+			</div>
+			<div id="main">
+				<div class="area-list">
+					<header class="author-header bgParallax">
+						<div class="conteudo">
+							
+							
+						</div>                 
+					</header>
+				</div>
+				<div>
+					<div class ="conteudo">
+							
+					</div>               
+				</div>
+			</div>
+		</div>
+		
+		 <div id="Rodape-container">
+        <div class="Rodape-content">
+            <div class="Rodape-sobre-nos">
+					<h2>Social MEDX</h2>
+					<p>
+						O MEDX é uma solução completa em gestão de atendimento para a área médica, focado em oferecer aos seus clientes ferramentas poderosas, simples de usar e que melhorem a eficiência e lucratividade de clínicas e consultórios.	
+					</p>
+            </div>
+            <div class="Rodape-social">
+                <h2>Redes Sociais</h2>
+                	<ul>
+						<li><a href="" target="_blank">
+							<img class="imgrodape pb-3" src="../images/facebook-logo-white.png" alt="Facebook"></a></li>
+						<li><a  href="" target="_blank">
+							<img class="imgrodape  pb-3" src="../images/instagram-logo-white.png" alt="Linkedin"></a></li>
+						<li><a href="" target="_blank">
+							<img class="imgrodape pb-3" src="../images/youtube-logo-white.png" alt="Google"></a></li>
+						<li><a href="" target="_blank">
+							<img class="imgrodape pb-3" src="../images/wordpress.png" alt="Youtube"></a></li>	
+					</ul>
+            </div>
+        </div>
+    </div><!-- FIM Rodape-container-->
+
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b80b016adc332f"></script> -->
+	</body>
+	<script src="../js/classie.js"></script>
+	<script src="../js/uiMorphingButton_fixed.js"></script>
+	<script>
+	    (function () {
+	        var docElem = window.document.documentElement, didScroll, scrollPosition;
+
+	        // trick to prevent scrolling when opening/closing button
+	        function noScrollFn() {
+	            window.scrollTo(scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0);
+	        }
+
+	        function noScroll() {
+	            window.removeEventListener('scroll', scrollHandler);
+	            window.addEventListener('scroll', noScrollFn);
+	        }
+
+	        function scrollFn() {
+	            window.addEventListener('scroll', scrollHandler);
+	        }
+
+	        function canScroll() {
+	            window.removeEventListener('scroll', noScrollFn);
+	            scrollFn();
+	        }
+
+	        function scrollHandler() {
+	            if (!didScroll) {
+	                didScroll = true;
+	                setTimeout(function () { scrollPage(); }, 60);
+	            }
+	        };
+
+	        function scrollPage() {
+	            scrollPosition = { x: window.pageXOffset || docElem.scrollLeft, y: window.pageYOffset || docElem.scrollTop };
+	            didScroll = false;
+	        };
+
+	        scrollFn();
+
+	        [].slice.call(document.querySelectorAll('.morph-button')).forEach(function (bttn) {
+	            new UIMorphingButton(bttn, {
+	                closeEl: '.icon-close',
+	                onBeforeOpen: function () {
+	                    noScroll();
+	                },
+	                onAfterOpen: function () {
+	                    canScroll();
+	                    classie.addClass(document.body, 'noscroll');
+	                    classie.addClass(bttn, 'scroll');
+	                },
+	                onBeforeClose: function () {
+	                    classie.removeClass(document.body, 'noscroll');
+	                    classie.removeClass(bttn, 'scroll');
+	                    noScroll();
+	                },
+	                onAfterClose: function () {
+	                    canScroll();
+	                }
+	            });
+	        });
+	    })();
+			//carregando parte do menu superior
+			$( "#parte1" ).load( "/Template/teste.html #parte1menu" );
+		
+		$( "#parte2" ).load( "/Template/teste.html #parte2menu" );
+		$( "#parte3" ).load( "/Template/teste.html #parte3menu" , function() {
+			$("#mudar").html("FEATURES");
+		});
+		
+	</script>
+	<!--Menu fixo-->
+    
+<script type="text/javascript">
+	jQuery(window).scroll(function () {
+	 if (jQuery(this).scrollTop() > 70) {
+		 jQuery(".menumidresponsivo").addClass("fixo");
+	 } else {
+		 jQuery(".menumidresponsivo").removeClass("fixo");
+	 }
+	});
+	</script>
+	 
+</html>

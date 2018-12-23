@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*sobre escrita do boostrap*/
+.row{
+    margin:0px!important;
+}
+/*fim*/
+.listasemdecoracao{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.spcdir{
+    padding-right:10px; 
+}
+.linha{
+    display: inline;
+}
+.fundocinza{
+    background-color: gray;
+}
+.centro{
+    text-align: center;
+    position: relative;
+}
+.card{
+    width: 350px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-img-top {
+    max-width: 320px!important ;
+    padding: 2%;
+    max-height: 400px;
+    height: 400px;
+}
+.desloc{
+    
+    float: right;
+}
+.spcesq{
+    margin-right: 10px;
+}
+.espesqdir{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+.teste{
+    width: 33%;
+}
